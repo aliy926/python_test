@@ -2,7 +2,7 @@ def in_autotests_we_trust(a, b):
     if a == b:
         print('PASS')
     else:
-        print('TFAIL')
+        print('FAIL')
 
 in_autotests_we_trust(10, '10')
 
